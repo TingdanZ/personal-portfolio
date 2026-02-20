@@ -15,7 +15,7 @@ const config: Config = {
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        "custom-beige": "#C4BDB6", // A deeper, more accurate beige from the image
+        "custom-beige": "#B0A9A2", // An even deeper beige for more contrast
       },
       borderRadius: {
         lg: "var(--radius)",
