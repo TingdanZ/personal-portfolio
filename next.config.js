@@ -1,11 +1,15 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+/** @type {import('next').NextConfig} */const nextConfig = {
+  output: 'export',
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'via.placeholder.com',
-        port: '',
+      },
+    ],
+  },
+};'',
         pathname: '/**', // Allow all paths from this hostname
       },
     ],
